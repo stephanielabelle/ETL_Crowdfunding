@@ -15,6 +15,6 @@ The crowdfunding.xlsx file was extracted and transformed.  The columns "goal" an
 ### Creation of the Contacts CSV
 The contacts.xlsx file was extracted and transformed.  Columns "contact_id", "first_name", "last_name", and "email" were extracted from a JSON string.  Resulting dataframe was exported as [contacts.csv](Resources/contacts.csv).
 
-### Loading to Crowdfunding Database
-An ERD was constructed with the [QuickDBD app](https://www.quickdatabasediagrams.com/), and the schema was saved as a Postgres file named crowdfunding_db_schema with appropriate primary/foreign key and data type assignment. The crowdfunding schema along withe the 4 csv files were used to construct a PostgreSQL database named crowdfunding_db. After database creation, each table can be displayed with a SELECT statement, represented by screenshots in the [crowdfunding_db](Resources/crowdfunding_db) folder.
+## Loading to Crowdfunding Database
+An ERD was constructed with the [QuickDBD app](https://www.quickdatabasediagrams.com/), and the schema was saved as a Postgres file named crowdfunding_db_schema with appropriate primary/foreign key and data type assignment. The crowdfunding schema along withe the 4 csv files were used to construct a PostgreSQL database named crowdfunding_db. After database creation, each table can be displayed with a SELECT statement, represented by screenshots in the [crowdfunding_db](crowdfunding_db) folder.
 
